@@ -1,0 +1,18 @@
+
+### 5. Copy the source files
+
+Copy the files from this project into your `src/` directory, keeping the same
+paths:
+
+- `src/App.tsx`
+- `src/data/assets.ts`
+- `src/components/Header.tsx`
+- `src/components/StatStrip.tsx`
+- `src/components/AssetToolbar.tsx`
+- `src/components/AssetList.tsx`
+- `src/components/AssetDetail.tsx`
+
+Make sure `src/lib/utils.ts` exists (shadcn creates it during `init`) — it
+exports the `cn` helper used across the components.
+
+### 6. Run it

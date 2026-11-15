@@ -1,0 +1,2 @@
+
+Add the Tailwind plugin to `vite.config.ts`:
