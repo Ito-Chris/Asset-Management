@@ -1,2 +1,70 @@
 
-### 3. Set up Tailwind CSS
+---
+
+## 🗂️ ISO/IEC 27001 Annex A Controls Included
+
+| ID | Control |
+| --- | --- |
+| A.5.1 | Policies for information security |
+| A.5.9 | Inventory of information and assets |
+| A.5.10 | Acceptable use of information |
+| A.5.12 | Classification of information |
+| A.5.13 | Labelling of information |
+| A.5.15 | Access control |
+| A.5.23 | Cloud services security |
+| A.6.3 | Awareness and training |
+| A.7.4 | Physical security monitoring |
+| A.8.1 | User endpoint devices |
+| A.8.8 | Technical vulnerability management |
+| A.8.9 | Configuration management |
+| A.8.12 | Data leakage prevention |
+| A.8.13 | Information backup |
+| A.8.16 | Monitoring activities |
+| A.8.20 | Network security |
+| A.8.24 | Use of cryptography |
+| A.8.28 | Secure coding |
+
+---
+
+## 🔐 Privacy & Security Notes
+
+- **No data leaves the browser.** There is no backend, no telemetry, and no external API calls.
+- Asset data is held in React state only — refreshing the page resets the register.
+- The "AI Translation" feature uses a bundled offline dictionary, so it works fully air-gapped.
+
+---
+
+## 🧭 Roadmap
+
+- [ ] Persist the register to `localStorage` / IndexedDB
+- [ ] Import / export register as CSV or JSON
+- [ ] Statement of Applicability (SoA) export
+- [ ] Risk treatment plan view
+- [ ] Audit trail / change log per asset
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repo
+2. Create a feature branch (`git checkout -b feature/my-feature`)
+3. Commit your changes (`git commit -m "Add my feature"`)
+4. Push (`git push origin feature/my-feature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+Released under the **MIT License**. See `LICENSE` for details.
+
+---
+
+## 👤 Author
+
+**Chris Ito**
+GitHub: [@Ito-Chris](https://github.com/Ito-Chris)
+
+---
+
+> ⚠️ This tool is an aid for organizing ISO/IEC 27001 asset and control information. It does not itself certify compliance with any standard.
